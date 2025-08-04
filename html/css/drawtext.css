@@ -5,27 +5,21 @@
     --font-weight-medium: 500;
     --font-weight-bold: 700;
     --font-weight-light: 300;
-    /* Colors */
-    --md-primary: #1c75d2;
-    --md-primary-container: #6facec;
-    --md-error: #c10114;
-    --md-error-container: #fe4255;
-    --md-success: #20bb44;
-    --md-success-container: #6ae587;
-    --md-warning: #ff9800;
-    --md-warning-container: #ffc107;
-    --md-info: #2197f2;
-    --md-info-container: #7ac1f7;
-    --md-surface: #fffbff;
-    --md-on-surface: #1c1b1f;
+    
+    /* Brand Colors */
+    --primary: #6C2BD9;
+    --accent: #FFBA7A;
+    --background: #1C1C1E;
+    --card-panel: #2C2C2E;
+    --text: #F3F3F3;
 
     /* Custom Variables */
-    --primary-bg: rgba(23, 23, 23, 90%);
-    --active-bg: var(--md-error);
-    --font-color: white;
+    --primary-bg: var(--card-panel);
+    --active-bg: var(--primary);
+    --font-color: var(--text);
 
     /* Elevation */
-    --md-elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    --md-elevation-1: 0px 2px 8px rgba(0, 0, 0, 0.25);
 
     /* Border Radius */
     --md-radius-small: 5px;

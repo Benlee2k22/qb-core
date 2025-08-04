@@ -7,39 +7,39 @@
     --font-weight-light: 300;
 
     /* Colors */
-    --md-primary: #0061a4;
-    --md-on-primary: #ffffff;
-    --md-primary-container: #d1e4ff;
-    --md-on-primary-container: #001d36;
+    --md-primary: #6C2BD9;
+    --md-on-primary: #F3F3F3;
+    --md-primary-container: #2C2C2E;
+    --md-on-primary-container: #F3F3F3;
 
-    --md-error: #ba1a1a;
-    --md-on-error: #ffffff;
-    --md-error-container: #ffdad6;
-    --md-on-error-container: #410002;
+    --md-error: #FF4444;
+    --md-on-error: #F3F3F3;
+    --md-error-container: #2C2C2E;
+    --md-on-error-container: #F3F3F3;
 
-    --md-success: #006e1c;
-    --md-on-success: #ffffff;
-    --md-success-container: #9df996;
-    --md-on-success-container: #002106;
+    --md-success: #4CAF50;
+    --md-on-success: #F3F3F3;
+    --md-success-container: #2C2C2E;
+    --md-on-success-container: #F3F3F3;
 
-    --md-warning: #7d5800;
-    --md-on-warning: #ffffff;
-    --md-warning-container: #ffdf93;
-    --md-on-warning-container: #271900;
+    --md-warning: #FFBA7A;
+    --md-on-warning: #1C1C1E;
+    --md-warning-container: #2C2C2E;
+    --md-on-warning-container: #F3F3F3;
 
-    --md-info: #0062a1;
-    --md-on-info: #ffffff;
-    --md-info-container: #d0e4ff;
-    --md-on-info-container: #001d35;
+    --md-info: #6C2BD9;
+    --md-on-info: #F3F3F3;
+    --md-info-container: #2C2C2E;
+    --md-on-info-container: #F3F3F3;
 
     /* Surface colors */
-    --md-surface: #fcfcff;
-    --md-on-surface: #1a1c1e;
-    --md-surface-variant: #dfe2eb;
-    --md-on-surface-variant: #43474e;
+    --md-surface: #1C1C1E;
+    --md-on-surface: #F3F3F3;
+    --md-surface-variant: #2C2C2E;
+    --md-on-surface-variant: #F3F3F3;
 
     /* Elevation */
-    --md-elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    --md-elevation-1: 0px 2px 8px rgba(0, 0, 0, 0.25);
 
     /* Border Radius */
     --md-radius-small: 4px;
@@ -57,48 +57,48 @@ html::-webkit-scrollbar {
 
 @media (width: 3840px) and (height: 2160px) {
     .success {
-        background-color: rgba(23, 23, 23, 90%);
-        color: var(--md-on-surface);
+        background-color: var(--md-success-container);
+        color: var(--md-on-success-container);
         box-shadow: var(--md-elevation-1);
         border-left: 0.5rem solid var(--md-success);
         font-size: 1.5vh;
     }
 
     .primary {
-        background-color: rgba(23, 23, 23, 90%);
-        color: var(--md-on-surface);
+        background-color: var(--md-primary-container);
+        color: var(--md-on-primary-container);
         box-shadow: var(--md-elevation-1);
         border-left: 5px solid var(--md-primary);
         font-size: 1.5vh;
     }
 
     .error {
-        background-color: rgba(23, 23, 23, 90%);
-        color: var(--md-on-surface);
+        background-color: var(--md-error-container);
+        color: var(--md-on-error-container);
         box-shadow: var(--md-elevation-1);
         border-left: 5px solid var(--md-error);
         font-size: 1.5vh;
     }
 
     .warning {
-        background-color: rgba(23, 23, 23, 90%);
-        color: var(--md-on-surface);
+        background-color: var(--md-warning-container);
+        color: var(--md-on-warning-container);
         box-shadow: var(--md-elevation-1);
         border-left: 5px solid var(--md-warning);
         font-size: 1.5vh;
     }
 
     .police {
-        background-color: rgba(23, 23, 23, 90%);
-        color: var(--md-on-surface);
+        background-color: var(--md-info-container);
+        color: var(--md-on-info-container);
         box-shadow: var(--md-elevation-1);
         border-left: 5px solid var(--md-info);
         font-size: 1.5vh;
     }
 
     .ambulance {
-        background-color: rgba(23, 23, 23, 90%);
-        color: var(--md-on-surface);
+        background-color: var(--md-error-container);
+        color: var(--md-on-error-container);
         box-shadow: var(--md-elevation-1);
         border-left: 5px solid var(--md-error);
         font-size: 1.5vh;
